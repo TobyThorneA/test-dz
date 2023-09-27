@@ -1,0 +1,27 @@
+.wrapper{
+  &__tasks{
+    display: flex;
+    flex-direction: column;
+    background: rgb(209, 203, 203);
+    border: 2px solid black;
+    width: 500px;
+    min-height: 500px;
+  }
+  &__list-item {
+    display: flex;
+    margin-top: 10px;
+    background: yellow;
+  }
+  &__button-task {
+    margin-left: 50px;
+    width: 150px;
+    height: 20px;
+  }
+  &__list-item--done {
+    display: flex;
+    margin-top: 10px;
+    background: green;
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+}
